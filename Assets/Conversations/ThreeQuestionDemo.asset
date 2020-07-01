@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c549feea25a634e0baaf3b6adae4a83c, type: 3}
+  m_Name: ThreeQuestionDemo
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: 57c973c57176540789fdc2a10b91bd9d, type: 2}
+  speakerRight: {fileID: 11400000, guid: 17c583b5ed845427aa70d9177deec61d, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 57c973c57176540789fdc2a10b91bd9d, type: 2}
+    text: Hello, how are you?
+    score: 0
+    text2: 
+    score2: 0
+  - character: {fileID: 11400000, guid: 17c583b5ed845427aa70d9177deec61d, type: 2}
+    text: I'm doing ok, you?
+    score: 0
+    text2: 
+    score2: 0
+  - character: {fileID: 11400000, guid: 17c583b5ed845427aa70d9177deec61d, type: 2}
+    text: I'm doing ok, you?
+    score: 0
+    text2: 
+    score2: 0
+  - character: {fileID: 11400000, guid: 17c583b5ed845427aa70d9177deec61d, type: 2}
+    text: I'm doing ok, you?
+    score: 0
+    text2: 
+    score2: 0
+  - character: {fileID: 11400000, guid: 17c583b5ed845427aa70d9177deec61d, type: 2}
+    text: I'm doing ok, you?
+    score: 0
+    text2: 
+    score2: 0
+  - character: {fileID: 11400000, guid: 17c583b5ed845427aa70d9177deec61d, type: 2}
+    text: I'm doing ok, you?
+    score: 0
+    text2: 
+    score2: 0
