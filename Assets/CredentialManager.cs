@@ -14,5 +14,6 @@ public class CredentialManager : MonoBehaviour
 
     public void SetToken(string t){
         token = t;
+        Debug.Log($"Unity received token: {t}");
     }
 }

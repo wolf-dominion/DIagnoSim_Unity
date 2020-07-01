@@ -51,26 +51,22 @@ public class ResultsHandler : MonoBehaviour
         //    communication: communicationScore,
         //    sharedecision: sharedDecisionScore
         //}
-        
+
         string token = CredentialManager.instance.token;
-        string body = "";
+        // string body = $"{{\"result\":{{\"empathy\":{empathyScore},\"communication\":{communicationScore},\"sharedecision\":{sharedDecisionScore}}}}}";
+        string body = "{\"result\":{\"empathy\":" + empathyScore + ",\"communication\":" + communicationScore + ",\"sharedecision\":" + sharedDecisionScore + "}}";
+        // WWWForm form = new WWWForm();
+        // form.AddField("body", body);
 
-        WWWForm form = new WWWForm();
-        form.AddField("body", body);
+        var request = new UnityWebRequest(url, "POST");
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(body);
+        request.uploadHandler = (UploadHandler) new UploadHandlerRaw(bodyRaw);
+        request.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();
+        request.SetRequestHeader("content-type", "application/json");
+        request.SetRequestHeader("authorization", $"Bearer {token}");
 
-        var webRequest = UnityWebRequest.Post(url, form);
-        webRequest.SetRequestHeader("content-type", "application/json");
-        webRequest.SetRequestHeader("authorization", $"Bearer {token}");
+        yield return request.Send();
 
-        yield return webRequest.SendWebRequest();
-
-        if (webRequest.isNetworkError)
-        {
-            Debug.Log("Error While Sending: " + webRequest.error);
-        }
-        else
-        {
-            Debug.Log("Received: " + webRequest.downloadHandler.text);
-        }
+        Debug.Log("Status Code: " + request.responseCode);
     }
 }
