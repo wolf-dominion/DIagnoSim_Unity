@@ -46,17 +46,8 @@ public class ResultsHandler : MonoBehaviour
 
     IEnumerator PostRequest(string url)
     {
-        //result = {
-        //    empathy: empathyScore,
-        //    communication: communicationScore,
-        //    sharedecision: sharedDecisionScore
-        //}
-
         string token = CredentialManager.instance.token;
-        // string body = $"{{\"result\":{{\"empathy\":{empathyScore},\"communication\":{communicationScore},\"sharedecision\":{sharedDecisionScore}}}}}";
         string body = "{\"result\":{\"empathy\":" + empathyScore + ",\"communication\":" + communicationScore + ",\"sharedecision\":" + sharedDecisionScore + "}}";
-        // WWWForm form = new WWWForm();
-        // form.AddField("body", body);
 
         var request = new UnityWebRequest(url, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(body);

@@ -22,21 +22,21 @@ public class CommunicationChoice : MonoBehaviour
     public void ChoiceOption1 () {
         TextBox.GetComponent<TMP_Text>().text ="You have selected Option 1";
         ChoiceMade = 1;
-        ResultsHandler.instance.SetEmpathy(0);
+        ResultsHandler.instance.SetCommunication(0);
     }
     public void ChoiceOption2 () {
         TextBox.GetComponent<TMP_Text>().text ="You have selected Option 2";
         ChoiceMade = 2;
-        ResultsHandler.instance.SetEmpathy(1);
+        ResultsHandler.instance.SetCommunication(1);
     }
     public void ChoiceOption3 () {
         TextBox.GetComponent<TMP_Text>().text ="You have selected Option 3";
         ChoiceMade = 3;
-        ResultsHandler.instance.SetEmpathy(2);
+        ResultsHandler.instance.SetCommunication(2);
     }
     public void ChoiceOption4 () {
         TextBox.GetComponent<TMP_Text>().text ="You have selected Option 4";
         ChoiceMade = 4;
-        ResultsHandler.instance.SetEmpathy(3);
+        ResultsHandler.instance.SetCommunication(3);
     }
 }

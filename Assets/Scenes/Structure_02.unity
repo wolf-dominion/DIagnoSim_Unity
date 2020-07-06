@@ -1247,7 +1247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '   2. Hi Sam, how has life been recently?'
+  m_text: '   2. What did you come in for today?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 297903486}
-    characterCount: 41
+    characterCount: 37
     spriteCount: 0
     spaceCount: 10
     wordCount: 9
@@ -11576,7 +11576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '   4. I can already tell you what you need today.'
+  m_text: '   4. Hi Sam, how has life been recently?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11645,10 +11645,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1788032844}
-    characterCount: 49
+    characterCount: 41
     spriteCount: 0
-    spaceCount: 12
-    wordCount: 11
+    spaceCount: 10
+    wordCount: 9
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -12295,7 +12295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '   3. What did you come in for today?'
+  m_text: '   3. Hello Sam, how are you feeling?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12366,8 +12366,8 @@ MonoBehaviour:
     textComponent: {fileID: 1947348087}
     characterCount: 37
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 9
+    spaceCount: 9
+    wordCount: 8
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -12720,7 +12720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '   1. Hello Sam, how are you feeling?'
+  m_text: '   1. I can already tell you what you need today.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12789,10 +12789,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1978071267}
-    characterCount: 37
+    characterCount: 49
     spriteCount: 0
-    spaceCount: 9
-    wordCount: 8
+    spaceCount: 12
+    wordCount: 11
     linkCount: 0
     lineCount: 1
     pageCount: 1
