@@ -41,7 +41,7 @@ public class ResultsHandler : MonoBehaviour
         dialoguePanel.SetActive(false);
         returnButton.SetActive(true);
         TextBox.GetComponent<TMP_Text>().text ="You have completed the simulation. Please check your profile to see the results.";
-        StartCoroutine(PostRequest("http://localhost:3000/results"));
+        StartCoroutine(PostRequest("https://guarded-atoll-24261.herokuapp.com/results"));
     }
 
     IEnumerator PostRequest(string url)
